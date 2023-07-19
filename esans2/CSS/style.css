@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+.rectangle {
+  position: relative;
+  background: #850000;
+}
+.rectangle#berandaJam {
+  position: relative;
+  left: -10em;
+  width: 24.5em;
+  height: 10px;
+}
+.rectangle#riwayat {
+  left: -8em;
+  width: 20em;
+  height: 10px;
+}
+iframe {
+  width: 700px;
+  height: 300px;
+  border-radius: 20px;
+}
+/* Navbar */
+nav .dropdown-menu li {
+  margin: 5px 0px;
+}
+.dropdown-menu li a {
+  color: rgba(0, 0, 0, 0.5);
+}
+.dropdown-menu li a:hover {
+  color: black;
+  padding: 5px 25px;
+  background: #ffdb89;
+}
+/* Footer */
+ul li a {
+  text-decoration: none !important;
+  margin: 0px 20px;
+}
+/*===========================================*/
+/* Section Beranda */
+section.beranda .content-1 {
+}
+section.beranda .button-content-1 {
+  width: 10em;
+  background-color: #850000;
+  text-align: center;
+}
+section.beranda .button-content-1 a {
+  color: #f9f9f9;
+}
+section.beranda .card .card-header {
+  background: none;
+}
+section.beranda .card .card-footer {
+  background: none;
+}
+section.beranda .card .card-footer a {
+  color: white;
+  font-weight: bold;
+  background: #850000;
+}
+
+/* Section Meja */
+section.meja .card {
+  width: 12em;
+  height: 12em;
+  border: none;
+  background: url('../IMG/BGmeja.png');
+  background-size: cover;
+}
+
+/* Section Riwayat */
+
+/*===========================================*/
+
+/*============= Section Admin ==============*/
+/* Sidebar Section */
+aside.sidebar .sidebar-body .navbar-nav ul li a {
+  margin: 0px 30px;
+}
+/* Content Section */
+.content .daftarMejaAdmin .card {
+  width: 21.19em;
+}
+
+/* Modal PopUp */
+
+.flash-message {
+  position: fixed;
+  top: 35em;
+  left: 53.5em;
+  width: 30em;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  transition: opacity 0.5s;
+}
+.popUp.show {
+  height: 100px;
+}
+.popUp-content {
+  display: flex;
+  flex-direction: column;
+}
+.popUp-header {
+  border-bottom: 1px solid black;
+}
+.popUp-header .popUp-header-content .left-side .iconNotif {
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  border-radius: 50%;
+}
